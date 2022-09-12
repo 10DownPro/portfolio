@@ -486,44 +486,34 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+img {
+  height: 95px;
 }
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
+.gitHub, .JavaScript {
+  padding-bottom: 25px;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
+#row1, #row2, #row3 {
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 .devicon-javascript-plain, .devicon-github-original-wordmark {
   font-size: 80px;
 }
+
+.col {
+  margin: 8px;
+}
+
+.devicon-visualstudio-plain-wordmark {
+  font-size: 110px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Resume
@@ -555,6 +545,10 @@ section {
 
 .btn:hover {
   background-color: RoyalBlue;
+}
+
+.fa {
+  color: white;
 }
 
 .resume .resume-item h4 {
@@ -1245,3 +1239,4 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
