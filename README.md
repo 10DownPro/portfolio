@@ -16,6 +16,19 @@ This site includes:
 - 🧰 **Tech Stack** – Tools & languages I work with
 - 📫 **Contact** – How to reach out or connect
 
+## 🚀 Live Site  
+[https://tvedtlazenby.me](https://tvedtlazenby.me)
+
+## 🖼️ Portfolio Preview
+
+| Homepage                         | Projects Section                  | Resume Section                   |
+|----------------------------------|-----------------------------------|----------------------------------|
+| ![Homepage](./assets/homepage.png) | ![Projects](./assets/projects.png) | ![Resume](./assets/resume.png)   |
+
+| Tech Stack                       | Mobile View                       | Contact Section                  |
+|----------------------------------|-----------------------------------|----------------------------------|
+| ![Tech Stack](./assets/techstack.png) | ![Mobile](./assets/mobile.png)     | ![Contact](./assets/contact.png) |
+
 ## 🛠️ Tech Used
 
 - HTML / CSS / JS
@@ -37,6 +50,7 @@ Thanks for stopping by & stay tuned for future updates !
 - Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 - Author: BootstrapMade.com
 - License: https://bootstrapmade.com/license/
+
 
 
 
