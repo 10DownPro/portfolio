@@ -21,13 +21,13 @@ This site includes:
 
 ## 🖼️ Portfolio Preview
 
-| Homepage                         | Projects Section                  | Resume Section                   |
-|----------------------------------|-----------------------------------|----------------------------------|
-| ![Homepage](./assets/homepage.png) | ![Projects](./assets/projects.png) | ![Resume](./assets/resume.png)   |
+| Homepage | Projects Section | Resume Section |
+|----------|------------------|----------------|
+| <img src="https://github.com/user-attachments/assets/de4751f7-bc9a-4348-acd2-f41917868912" width="300"/> | <img src="https://github.com/user-attachments/assets/bafdf64b-a7c7-4585-84d1-ee8336f9e45a" width="300"/> | <img src="https://github.com/user-attachments/assets/4adfb865-d1e0-4fe0-88cf-a17f2fa9735c" width="300"/> |
 
-| Tech Stack                       | Mobile View                       | Contact Section                  |
-|----------------------------------|-----------------------------------|----------------------------------|
-| ![Tech Stack](./assets/techstack.png) | ![Mobile](./assets/mobile.png)     | ![Contact](./assets/contact.png) |
+| Tech Stack | Mobile View | Contact Section |
+|------------|-------------|-----------------|
+| <img src="https://github.com/user-attachments/assets/ef34bd58-ecc9-4045-93aa-9cf2bf3e3f57" width="300"/> | <img src="./assets/mobile.png" width="300"/> | <img src="https://github.com/user-attachments/assets/a598772e-e706-4f2e-9f1c-91d3542bb663" width="300"/> |
 
 ## 🛠️ Tech Used
 
@@ -50,6 +50,7 @@ Thanks for stopping by & stay tuned for future updates !
 - Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 - Author: BootstrapMade.com
 - License: https://bootstrapmade.com/license/
+
 
 
 
