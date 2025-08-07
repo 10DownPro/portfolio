@@ -23,11 +23,12 @@ This site includes:
 
 | Homepage | Projects Section | Resume Section |
 |----------|------------------|----------------|
-| <img src="https://github.com/user-attachments/assets/de4751f7-bc9a-4348-acd2-f41917868912" width="300"/> | <img src="https://github.com/user-attachments/assets/bafdf64b-a7c7-4585-84d1-ee8336f9e45a" width="300"/> | <img src="https://github.com/user-attachments/assets/4adfb865-d1e0-4fe0-88cf-a17f2fa9735c" width="300"/> |
+| <img src="https://github.com/user-attachments/assets/de4751f7-bc9a-4348-acd2-f41917868912" height="200"/> | <img src="https://github.com/user-attachments/assets/bafdf64b-a7c7-4585-84d1-ee8336f9e45a" height="200"/> | <img src="https://github.com/user-attachments/assets/4adfb865-d1e0-4fe0-88cf-a17f2fa9735c" height="200"/> |
 
 | Tech Stack | Mobile View | Contact Section |
 |------------|-------------|-----------------|
-| <img src="https://github.com/user-attachments/assets/ef34bd58-ecc9-4045-93aa-9cf2bf3e3f57" width="300"/> | <img width="361" height="296" alt="Screenshot 2025-08-07 at 3 16 04 PM" src="https://github.com/user-attachments/assets/9ffb1b5c-155b-4f49-b0b7-d8a5aaf4c5a0" width="300"/> | <img src="https://github.com/user-attachments/assets/a598772e-e706-4f2e-9f1c-91d3542bb663" width="300"/> |
+| <img src="https://github.com/user-attachments/assets/ef34bd58-ecc9-4045-93aa-9cf2bf3e3f57" height="200"/> | <img src="https://github.com/user-attachments/assets/9ffb1b5c-155b-4f49-b0b7-d8a5aaf4c5a0" height="200"/> | <img src="https://github.com/user-attachments/assets/a598772e-e706-4f2e-9f1c-91d3542bb663" height="200"/> |
+
 
 ## 🛠️ Tech Used
 
@@ -50,6 +51,7 @@ Thanks for stopping by & stay tuned for future updates !
 - Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
 - Author: BootstrapMade.com
 - License: https://bootstrapmade.com/license/
+
 
 
 
