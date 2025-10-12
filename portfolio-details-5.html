@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EC2 Remediation System | T'Vedt Lazenby</title>
+  <meta content="A scoped ServiceNow app that detects failed EC2 instances, triggers Slack alerts, and enables one-click remediation via AWS REST API." name="description">
+  <meta content="ServiceNow, AWS EC2, AI Agent Studio, Automation, Cloud, Netflix Outage, T'Vedt Lazenby" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,500,700|Poppins:300,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row gy-4">
+
+          <!-- LEFT COLUMN -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper mb-4">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="https://github.com/user-attachments/assets/c2a26958-089a-4f61-b052-8827b6b86207" alt="System Diagram - EC2 Remediation Flow">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="https://github.com/user-attachments/assets/2afe9097-20f7-42de-bf66-b9ce85503082" alt="EC2 Instance Table">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="https://github.com/user-attachments/assets/2aac69ee-4d34-46ce-9f04-3a97eb8e09e3" alt="Remediation Log Table">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="https://github.com/user-attachments/assets/0855ce7a-47cb-42bb-96c1-486910df9a88" alt="Script Include - AWS Restart Logic">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="https://github.com/user-attachments/assets/06bbd250-dd85-40dc-9b05-8e2bd6f03941" alt="UI Action Button on Instance Form">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="https://github.com/user-attachments/assets/e40531e2-438e-42a2-913b-22667e049738" alt="Flow Designer Logic">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- MAIN DESCRIPTION -->
+            <div class="portfolio-description text-start">
+              <h2>EC2 Remediation System — ServiceNow + AWS Automation</h2>
+              <p>
+                This scoped ServiceNow app automatically detects failed EC2 instances, triggers alerts, and enables one-click remediation via AWS REST API.  
+                It was designed to reduce downtime and automate repetitive tasks during high-severity cloud incidents.
+              </p>
+
+              <p>
+                Inspired by a real-world <strong>Netflix outage scenario</strong>, the system replicates how enterprise teams can use ServiceNow as the command center for cloud incident response —  
+                combining monitoring, AI-driven recommendations, and direct remediation tools.
+              </p>
+
+              <p>
+                When AWS Integration detects an EC2 instance failure, the app:
+              </p>
+
+              <ul>
+                <li>Detects the failure via AWS Integration Server</li>
+                <li>Creates a ServiceNow incident automatically</li>
+                <li>Triggers Slack notifications to DevOps</li>
+                <li>Uses AI Search to suggest knowledge articles</li>
+                <li>Provides a “Trigger EC2 Remediation” button for one-click fix</li>
+                <li>Logs all actions in a Remediation Log table</li>
+              </ul>
+
+              <p><strong>Impact:</strong> Reduced recovery time from 15 minutes to under 60 seconds through integrated AI + cloud orchestration.</p>
+            </div>
+          </div>
+
+          <!-- RIGHT COLUMN -->
+          <div class="col-lg-4 d-flex flex-column justify-content-start">
+
+            <!-- Project Info -->
+            <div class="portfolio-info mb-4">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Category</strong>: Cloud Automation</li>
+                <li><strong>Type</strong>: ServiceNow Scoped App</li>
+                <li><strong>Scenario</strong>: Netflix EC2 Outage Simulation</li>
+                <li><strong>GitHub Repo</strong>: 
+                  <a href="https://github.com/10DownPro/ec2-remediation-system" target="_blank">
+                    ec2-remediation-system
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Key Highlights -->
+            <div class="portfolio-highlights mb-4 p-3" style="background:#f8f9fa; border-radius:10px; border:1px solid #eee;">
+              <h4 style="font-weight:600;">Key Highlights</h4>
+              <ul style="list-style: disc; margin-left:18px;">
+                <li>Integrated <strong>ServiceNow + AWS</strong> for end-to-end remediation</li>
+                <li>Designed with <strong>AI Search</strong> for instant KB recommendations</li>
+                <li>Implemented <strong>Slack + REST API automation</strong> for alerts</li>
+                <li>Built <strong>custom tables</strong> for EC2 tracking and audit logs</li>
+                <li>Deployed full <strong>Scoped App Package</strong> for enterprise use</li>
+              </ul>
+            </div>
+
+            <!-- Stack -->
+            <div class="portfolio-tags p-3" style="background:#ffffff; border:1px solid #eee; border-radius:10px;">
+              <h4 style="font-weight:600;">Tech Stack</h4>
+              <p>ServiceNow, AWS EC2, Flow Designer, GlideRecord, REST APIs, AI Search, Slack API, Scoped App Framework</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
