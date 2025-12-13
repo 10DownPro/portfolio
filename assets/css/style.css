@@ -359,6 +359,14 @@ h6 {
   }
 }
 
+.clarity-link{
+  font-weight: 600;
+  text-decoration: none;
+}
+.clarity-link:hover{
+  text-decoration: underline;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
