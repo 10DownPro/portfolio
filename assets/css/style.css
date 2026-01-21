@@ -831,6 +831,69 @@ img {
   padding: 0;
 }
 
+.portfolio-cta{
+  margin-top: 28px;
+}
+
+.portfolio-cta-inner{
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 18px 35px rgba(0,0,0,0.06);
+}
+
+.portfolio-cta-inner h3{
+  margin: 0 0 8px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+.portfolio-cta-inner p{
+  margin: 0 0 16px;
+  color: rgba(0,0,0,0.72);
+  max-width: 62ch;
+}
+
+.portfolio-cta-actions{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.portfolio-cta-actions a{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.portfolio-cta-actions .btn-hire{
+  background: #FCA900;
+  color: #111;
+}
+
+.portfolio-cta-actions .btn-call{
+  border: 2px solid #FCA900;
+  color: #111;
+  background: transparent;
+}
+
+.portfolio-cta-actions .btn-call:hover{
+  background: #FCA900;
+  color: #111;
+}
+
+.portfolio-cta-note{
+  margin-top: 12px;
+  font-size: 13px;
+  color: rgba(0,0,0,0.62);
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
