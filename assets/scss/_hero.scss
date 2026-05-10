@@ -1,13 +1,16 @@
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  min-height: 100vh;
+  background: url("../img/hero.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
-  
+
   @media (min-width: 992px) {
     padding-left: 160px;
   }
@@ -16,33 +19,86 @@
     content: "";
     background: rgba($white, 0.8);
     position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2;
   }
 
   h1 {
     margin: 0;
     font-size: 64px;
     font-weight: 700;
-    line-height: 56px;
-    color:$secondary;
+    line-height: 1;
+    color: $secondary;
+  }
+
+  .hero-subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2b2f32;
+    margin-top: 8px;
+    margin-bottom: 22px;
   }
 
   p {
     color: $secondary;
-    margin: 15px 0 0 0;
-    font-size: 26px;
+    margin: 0;
     font-family: $font-secondary;
+
     span {
       color: $primary;
       letter-spacing: 1px;
     }
   }
 
+  .hero-typed {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 26px !important;
+  }
+
+  .hero-description {
+    max-width: 760px;
+    font-size: 24px;
+    line-height: 1.55;
+    color: $secondary;
+    margin-bottom: 12px !important;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 30px;
+  }
+
+  .hero-btn {
+    font-size: 17px;
+    font-weight: 600;
+    color: $primary;
+    text-decoration: none;
+    transition: 0.25s ease;
+
+    &:hover {
+      color: #034f94;
+      text-decoration: underline;
+    }
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+
   .social-links {
     margin-top: 30px;
+
     a {
       font-size: 24px;
       display: inline-block;
@@ -50,27 +106,46 @@
       line-height: 1;
       margin-right: 20px;
       transition: 0.3s;
+
       &:hover {
         color: $primary;
       }
     }
   }
 
-  @media (min-width: 1024px) {
-    //background-attachment: fixed;
-  }
-
   @media (max-width: 992px) {
+    height: auto;
+    min-height: 100vh;
+    padding: 90px 24px 60px;
     text-align: center;
+    background-position: center;
+
     h1 {
-      font-size: 32px;
-      line-height: 36px;
+      font-size: 36px;
+      line-height: 1.1;
     }
-    p {
-      margin-top: 10px;
+
+    .hero-subtitle {
+      font-size: 22px;
+      line-height: 1.35;
+      margin-bottom: 16px;
+    }
+
+    .hero-typed {
       font-size: 20px;
-      line-height: 24px;
+      line-height: 1.45;
+      margin-bottom: 18px !important;
+    }
+
+    .hero-description {
+      max-width: 100%;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .hero-buttons {
+      justify-content: center;
+      gap: 14px;
     }
   }
-
 }
