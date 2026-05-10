@@ -394,6 +394,7 @@ h6 {
 }
 
 @media (max-width: 992px) {
+  html,
   body {
     overflow-x: hidden;
   }
@@ -436,6 +437,16 @@ h6 {
   .hero-buttons {
     justify-content: center;
     gap: 14px;
+  }
+
+  #row1, #row2, #row3, #row4, #row5 {
+    margin-left: 0;
+  }
+
+  .skills img {
+    height: 65px;
+    width: auto;
+    max-width: 100%;
   }
 }
 
